@@ -3,7 +3,8 @@ drivesafetextlater
 
 An android app to detect motion with goal of using as much less battery as possible and smart as possible.
 Idea of the app is a help people access text message safely or better do an auto respond. 
-App is simple andriod application.
+App is simple andriod application. For best result user to set the drivemode manually if not app tries to auto detect
+with least battery usage.
 
 Movement detection:
 - User can start the DriveMode manual before they start driving.
@@ -13,7 +14,7 @@ Movement detection:
 - CarDock Listener starts like Manual DriveMode Start
 - If the movement is detected (if non manual start mode), drivemode is set true and then auto response begins.
 - some logic used to increase min time or min distance of location listener to save some battery depending on the car speed.
-
+- On Text arrival movement detection check if service is not already running.
 
 
 Database is used to save settings and information, like the auto-text response message etc. Text is read out to the
