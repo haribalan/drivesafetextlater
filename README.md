@@ -20,6 +20,8 @@ Database is used to save settings and information, like the auto-text response m
 user (as of now just like that, no permission asked) and auto reponse is sent on the Driving Mode.
 TODO is to make this voice recognnition with user directing what to do including the response.
 
+There is also a total app disable feature which can be used if the user is riding as a passenger!
+
 If pretty much self explanatory. I would lauch it some time soon...
 
 
