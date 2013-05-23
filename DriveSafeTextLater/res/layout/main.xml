@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:background="@drawable/background" >
+
+ <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+	android:background="@android:color/transparent" >
+
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:background="@android:color/transparent"
+         android:orientation="horizontal"
+         android:layout_marginTop="10dp"
+         android:weightSum="5" >
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="20dp"
+             android:weightSum="1"
+             android:layout_marginRight="3dp"
+             android:text="@string/drive_mode_buttons_label"
+             android:textColor="@android:color/white" />
+
+         <Button
+             android:id="@+id/startDrvMode"
+             android:layout_width="65dp"
+             android:layout_height="25dp"
+             android:layout_weight="2"
+             android:background="@android:drawable/button_onoff_indicator_on"
+             android:text="@string/button_start_label" />
+
+         <Button
+             android:id="@+id/stopDrvMode"
+             android:layout_width="65dp"
+             android:layout_height="25dp"
+             android:layout_weight="2"
+             android:background="@android:drawable/button_onoff_indicator_on"
+             android:layout_marginLeft="10dp"
+             android:text="@string/button_stop_label" />
+     </LinearLayout>
+         
+         <Button android:id="@+id/appEnableBtn"
+             android:layout_width="250dp"
+             android:layout_height="250dp"
+             android:layout_gravity="center_horizontal"
+             android:background="@drawable/button_on"
+             android:layout_marginTop="10dp"
+             />
+         
+
+   <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@drawable/yellow_text"
+        android:text="@string/en_dis_app_msg" />
+   
+  <LinearLayout     
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+	android:background="@android:color/transparent">              
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textColor="@android:color/white"
+        android:text="@string/default_text_label" />
+	
+	<EditText android:id="@+id/editText1" android:layout_width="match_parent"   
+	    android:layout_height="60dp" android:inputType="textMultiLine"/>
+	</LinearLayout>
+<LinearLayout     
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal"
+	android:background="@android:color/transparent">	
+    <Button
+        android:id="@+id/button1"
+     	android:layout_width="65dp"
+        android:layout_height="25dp"     
+        android:layout_weight="1"
+        android:layout_marginRight="10dp"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:text="@string/button_save_label" />
+
+   <Button
+        android:id="@+id/doneBtn"
+ 		android:layout_width="65dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:background="@android:drawable/button_onoff_indicator_on"
+        android:text="@string/button_done_label" />
+   
+</LinearLayout>    
+</LinearLayout>
+</LinearLayout>

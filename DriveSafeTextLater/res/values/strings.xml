@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">DriveSafeTextLater</string>
+    <string name="hello">Your safety is our priority.</string>
+    <string name="default_text_label">Your Auto-Response Message:</string>
+    <string name="default_text_str">I am driving, would get back to you as soon as possible.</string><!-- remember SpeedCopDbAdapter -->
+    <string name="en_dis_app">Enable Application</string>
+    <string name="en_dis_app_msg">Note:Please disable only if you are a passenger.</string>
+    <string name="button_save_label">Save</string>
+    <string name="button_start_label">Start</string>
+    <string name="button_stop_label">Stop</string>
+    <string name="notification_title">Driving Mode On</string>
+    <string name="notification_text">DriveSafeTextLater App is on Driving Mode. Auto reply to text</string>
+    <string name="drive_mode_buttons_label">Drive Mode </string>
+    <string name="button_done_label">Quit</string>
+</resources> 
